@@ -368,9 +368,9 @@ header{
 .collage-images{
     display: grid;
     grid-template-areas:
-    "c1 c2 c5"
-    "ch ch cv"
-    "ch ch cv"
+    "c1 c1 c5"
+    "c1 c1 cv"
+    "ch c2 cv"
     "c4 c3 cv"
     ;
     gap: 3rem;
