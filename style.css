@@ -665,8 +665,20 @@ footer {
             border-width: 0.5rem;
 
         }
+}
 
-
-        
-
+@media screen and (max-width: 400px) {
+    .header-image-lg{
+        width:100%;
+      
+     }  
+    h1 {
+        font-size: 2rem;
+    }
+    .about-image-lg{
+        width: 18rem;
+    }
+    .gallery-image{
+        width: 18rem;
+    }
 }
