@@ -134,7 +134,8 @@ nav {
 /* Heade  */
 header {
     width: 100vw;
-    height: fit-content;
+    /* height: fit-content; */
+    height: 100vh;
     position: relative;
     top: 0;
     background: linear-gradient(var(--color-bg-3), var(--color-bg-4));
@@ -233,7 +234,7 @@ header {
     right: 0;
 }
 
-.header-frames {
+.header-frames{
     position: absolute;
     top: 75vh;
     left: 25rem;
@@ -473,6 +474,7 @@ footer {
 }
 
 @media screen and (max-width:1280px) {
+   
     .about-right {
         margin-left: 8rem;
     }
@@ -497,8 +499,8 @@ footer {
     }
 
     .header-image-bg,
-    .header-image-md,
-    .header-frames {
+    .header-image-md
+    {
         display: none;
     }
 
