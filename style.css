@@ -468,15 +468,26 @@ footer {
 /* Responsive website */
 
 @media screen and (max-width:1665px) {
+    .header{
+    
+        height: fit-content
+    }
     .gallery-images {
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
 @media screen and (max-width:1280px) {
-   
+    header {
+        height: fit-content;
+        margin-bottom: 10rem;
+        background: none;
+    }
     .about-right {
         margin-left: 8rem;
+    }
+    .header-frames{
+        display: none;
     }
 }
 
@@ -519,7 +530,8 @@ footer {
     }
 
     .about-image-bg,
-    .about-image-md {
+    .about-image-md,
+    .header-frames {
         display: none;
     }
 
